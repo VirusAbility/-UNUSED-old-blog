@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>NUXT 지원 신청서</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" id="t-form" method="POST" action="https://script.google.com/macros/s/AKfycbw6DsXM5S3wB2fsWU10vyBaI4OiF7wPOkNNuNR-vA/exec">
+				<span class="contact100-form-title">
+					NUXT에 신청해주셔서 감사합니다
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="이름을 적어주세요">
+					<fieldset class="pure-group">
+					  <label for="name">이름: </label>
+					  <input id="name" name="name" placeholder="당신의 이름을 입력해주세요." />
+					</fieldset>
+				</div>
+				
+				<div class="wrap-input100 validate-input" data-validate="이름을 적어주세요">
+					<fieldset class="pure-group">
+					  <label for="twitch">트위치 아이디: </label>
+					  <input id="twitch" name="twitch" placeholder="NUXT-스트림 전용" />
+					</fieldset>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "형식에 맞지 않는 이메일입니다.">
+					<fieldset class="pure-group">
+					  <label for="email">이메일 주소:</label>
+					  <input id="email" name="email" type="email" value=""
+					  required placeholder="your.name@email.com"/>
+					  <span id="email-invalid" style="display:none">
+						이메일 주소를 입력해주세요</span>
+					</fieldset>
+				</div>
+
+				<div class="wrap-input100 input100-select">
+					<span class="label-input100">신청분야</span>
+					<div>
+						<select class="selection-2" name="service">
+							<option>NUXT-스트림</option>
+							<option>NUXT-콘피그</option>
+							<option>NUXT-대장간</option>
+						</select>
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "... 가입할 생각이 없으세요?">
+					<span class="label-input100">자기소개 및 하고싶은말</span>
+					<textarea class="input100" name="message" placeholder="자신을 어필해보세요"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<button class="button-success pure-button button-xlarge">
+				  <i class="fa fa-paper-plane"></i>&nbsp;신청</button>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
