@@ -1,0 +1,12 @@
+
+.home {
+    font-family: 'Noto Sans KR', sans-serif;
+    min-height: auto;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #60acbd), color-stop(100%, #3de3bd));
+}

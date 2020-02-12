@@ -1,0 +1,41 @@
+.navigation {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    right: 2.5%;
+    top: 2.5%;
+    z-index: 500;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation ul li {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 110%;
+    font-weight: 100;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 8px;
+}
+
+.navigation ul li a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+
+.navigation li.active {
+  font-weight: 400;
+}
+
+.navigation ul li a:hover, .navigation ul li a:active, .navigation ul li a:focus {
+    color: #FFFFFF;
+    transition: 0.3s;
+}

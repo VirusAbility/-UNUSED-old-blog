@@ -1,0 +1,50 @@
+
+.home {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/home.png");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/home.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.home h1 {
+  font-weight : bold;
+  font-size: 400%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.home h4 {
+  font-size: 130%;
+  font-weight : 300;
+}
+
+@media (min-width: 992px) {
+  .home {
+    height: 100vh;
+  }
+  .home h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.home h7.copyright {
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    text-align: center;
+    bottom: 1%;
+    width: 100%;
+    font-size: 65%;
+    font-weight: 100;
+}
